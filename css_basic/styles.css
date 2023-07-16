@@ -17,5 +17,39 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: aliceblue;
+    margin: 20px;
 
+}
+h1 {
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+}
+ul {
+    border: double;
+    background-color: aliceblue;
+}
+.leftpane {
+    background-color:#92D050;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+.rightpane {
+    background-color: rgb(206, 220, 217);
+    border: dashed;
+    border-color: rgb(21, 105, 216);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+footer {
+    border-top: double;
+    border-color: darkgreen;
+    border-width: 5px;
 }
