@@ -216,4 +216,38 @@ span {
     align-content: center; 
     padding: 50px;
 }
-    
+.FAQ {
+    width: 1220px;
+    height: 855px;
+    background-color: #fff;
+}
+.FAQ h1{
+    font-family: "sansregular";
+    color: #071629;
+    font-size: 50px;
+}
+#faqlist {
+    display: inline-flex;
+    flex-direction: row;
+}
+.footer {
+    width: 1220px;
+    height: 300px;
+    background-color: #071629;
+}
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 70px;
+}
+.logos {
+    padding: 15px;
+}
+#copyright {
+    font-family: "sansregular";
+    color: #FFF;
+    margin-left: 500px;
+}
