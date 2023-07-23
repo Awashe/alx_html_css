@@ -137,3 +137,26 @@ span {
     font-size: 14px;
     text-align: center;
 }
+.quotes {
+    width: 1220px;
+    height: 392px;
+    background-color: #C271FF;
+}
+#quotetext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "sansregular";
+    color: #fff;
+    font-size: 22px;
+    padding: 70px;
+    
+}
+#quotetext p {
+    text-indent: 40px;
+}
+#quotetext h3 {
+    text-indent: 40px;
+}
