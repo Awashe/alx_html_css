@@ -160,3 +160,27 @@ span {
 #quotetext h3 {
     text-indent: 40px;
 }
+.tutorials {
+    width: 1220px;
+    height: 628px;
+    background-color: #fff;
+}
+.tutorials p{
+    font-family: "sansregular";
+    color:#071629;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+}
+.tutor {
+    display: flex;
+    flex-direction: row;
+    font-family: "sansregular";
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+.tutor {
+
+}
