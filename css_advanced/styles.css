@@ -5,4 +5,135 @@
 @font-face {
     font-family: "sansregular";
     src: url("sourcesans/SourceSansPro-Regular.otf");
-  }
+}
+
+/* Links */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #FF6565;
+}
+
+/* Button */
+.button{
+    background-color: #C271FF;
+    color: #FFF;
+    border: #C271FF;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 10px;
+    margin: 20px;
+    font-family: "sans";
+}
+.button:hover, .button:active {
+    opacity: 0.9;
+    color: #FFF;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.mainpart {
+    width: 1220px;
+    height: 1093px;
+    background-image: url(images/Object.png);
+    background-size: cover;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    margin: 25px;
+    padding: 5px;
+}
+.navbar-menu {
+    margin: 10px;
+    padding: 5px;
+}
+.navbar-menu ul {
+    list-style-type: none;
+    text-align: center;  
+}
+.navbar-menu ul li{
+    display: inline;
+}
+.navbar-menu ul li a {
+    text-decoration: none;
+    font-family: "sans";
+    padding: .2em 1em;
+    color: #fff;
+}
+.navbar-menu  ul li a:hover {
+    color: #FF6565;
+}
+
+.mainpartbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.mainpartbody h1 {
+    font-family: "sans";
+    color:#fff;
+    font-size: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+.mainpartbody p {
+    font-family: "sans";
+    color:#fff;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.mainpartbody h2 {
+    font-family: "sansregular";
+    color:#fff;
+    font-size: 32px;
+    font-style:unset;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 0;
+}
+span {
+    font-family: "sans";
+    color:#C271FF;
+    font-size: 32px;
+}
+.pros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "sans";
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    top: 10px;
+    text-align: center;
+
+}
+.pros i {
+    font-family: "sansregular";
+    font-size: 14px;
+    text-align: center;
+}
